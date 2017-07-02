@@ -19,8 +19,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <StackPane prefHeight="150.0" prefWidth="200.0" >
-                <fx:include fx:id="TimeWidget" source="Time.fxml"/>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+                <fx:include fx:id="TimeWidget" source="Time.fxml" />
             </StackPane>
          </children>
       </GridPane>

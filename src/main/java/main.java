@@ -1,4 +1,5 @@
 import Controller.BackgroundController;
+import Controller.InternalClock;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -22,6 +23,6 @@ public class main extends Application{
         primaryStage.setScene(scene);
         primaryStage.show();
         primaryStage.setFullScreen(true);
-
+        InternalClock.beginUpdates();
     }
 }
